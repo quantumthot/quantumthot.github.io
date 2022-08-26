@@ -15,7 +15,8 @@ body {
     font-size: 1.5vw; 
     overflow-x: hidden; /* This prevents the horizontal scroll bar from appearing when the quote is hovered over */
     user-select: none; /* This prevents the text on the webpage from being highlighted by the user */ 
-	background-color: black
+    background-color: #1e0045;
+    background-image: radial-gradient(purple, darkblue);
 }
 
 body.fade-out {
@@ -91,7 +92,7 @@ img {
     filter: grayscale(35%); /* This rids our pictures of 75% of their color */
     border-radius: 8px; /* Gives all images slightly rounded corners */
     max-width: 100%; /* Ensures all images stay within the width of their container */
-    height: 400px; /* Sets the height of all images */
+  
     display: block; /* By specifying block display we can ensure our images are able to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this centers all images */
     margin-right: auto;
